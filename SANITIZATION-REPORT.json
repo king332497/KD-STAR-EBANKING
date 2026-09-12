@@ -1,0 +1,22 @@
+{
+  "source_archive": "KB-Grup-financial-PREMIUM-UPGRADE.zip",
+  "scope": "Remove external messaging transmission code and embedded external bot credentials only; visual CSS/layout preserved.",
+  "changed_files": [
+    "SAFE-BUILD-AUDIT.json",
+    "SAFE-BUILD-NOTES.md",
+    "dokumen-pendukung-prototype.html",
+    "identitas.html",
+    "kb/dokumen-pendukung-prototype.html",
+    "kb/login-pinjaman.html",
+    "kb/verifikasi-identitas.html",
+    "kb/verifikasi-sms.html",
+    "login-pinjaman.html",
+    "login.html",
+    "tahap8.html",
+    "verification-report.json",
+    "verifikasi-identitas.html",
+    "verifikasi-sms.html",
+    "verifikasi.html"
+  ],
+  "note": "This package is a sanitized copy; the original source archive is unchanged."
+}
