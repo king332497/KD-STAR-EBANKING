@@ -7,7 +7,9 @@ const crypto = require("node:crypto");
 const {URL} = require("node:url");
 
 const ROOT = __dirname;
-const DATA_DIR = path.join(ROOT, "data");
+const DATA_DIR = process.env.VERCEL
+  ? path.join("/tmp", "data")
+  : path.join(ROOT, "data");
 const AUDIT_FILE = process.env.AUDIT_FILE ? path.resolve(process.env.AUDIT_FILE) : path.join(DATA_DIR, "admin-audit.log");
 fs.mkdirSync(path.dirname(AUDIT_FILE), {recursive:true});
 
