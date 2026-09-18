@@ -3,11 +3,7 @@
 
   "functions": {
     "server.js": {
-      "includeFiles": [
-        "*.html",
-        "*.js",
-        "*.css"
-      ]
+      "includeFiles": "{*.html,*.js,*.css}"
     }
   },
 
