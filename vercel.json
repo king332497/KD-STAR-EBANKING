@@ -1,9 +1,21 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+
+  "functions": {
+    "server.js": {
+      "includeFiles": [
+        "*.html",
+        "*.js",
+        "*.css"
+      ]
+    }
+  },
+
   "rewrites": [
     { "source": "/admin", "destination": "/admin.html" },
     { "source": "/admin/", "destination": "/admin.html" }
   ],
+
   "headers": [
     {
       "source": "/admin.html",
